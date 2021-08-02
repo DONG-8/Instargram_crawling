@@ -13,8 +13,8 @@ url = "https://www.instagram.com/accounts/login/?source=auth_switcher"
 driver.get(url)
 
 time.sleep(3)
-driver.find_element_by_xpath('//*[@id="loginForm"]/div/div[1]/div/label/input').send_keys("dong_8_2_ya")
-driver.find_element_by_xpath('//*[@id="loginForm"]/div/div[2]/div/label/input').send_keys("dusrud110204~")
+driver.find_element_by_xpath('//*[@id="loginForm"]/div/div[1]/div/label/input').send_keys("")
+driver.find_element_by_xpath('//*[@id="loginForm"]/div/div[2]/div/label/input').send_keys("")
 driver.find_element_by_xpath('//*[@id="loginForm"]/div/div[3]/button/div').click()
 
 search=input('태그를입력하세요 : ')
